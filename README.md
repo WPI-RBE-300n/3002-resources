@@ -8,7 +8,7 @@ Here, you can find
   - for Ubuntu Noble Numbat (24.04) (TODO)
   - for Mac (TODO)
   - for [Docker](docs/setup/docker.md)
-  - for Virtual Machine over Vagrant (TODO)
+  - for [Virtual Machine over Vagrant](docs/setup/vagrant.md)
 - Handy ROS2 commands for debugging (TODO)
 
 If what you are looking for is not here, see official ROS2/Turtlebot3 resources below.
