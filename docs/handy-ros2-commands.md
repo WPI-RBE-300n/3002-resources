@@ -42,8 +42,28 @@ ros2 topic pub <topic> <type> <data>  # Publish message
 
 # Example(s)
 # run on different terminal 'ros2 run demo_nodes_cpp talker'
+ros2 topic info /chatter
 ros2 topic echo /chatter
+# run on different terminal 'ros2 run demo_nodes_cpp listener'
+ros2 topic pub /chatter std_msgs/msg/String <tabtab>  # there is a known bug in ros2 that sometimes doesn't automagically complete the tab
 ```
+
+To get a template message to publish in the terminal, add the following ([what is that bash alias magic?](https://github.com/GodOfKebab/one-liner)) to your `~/.bashrc`:
+
+```bash
+# paste this at the end of your ~/.bashrc
+alias ros2_msg_template='python3 -c "import base64; import zlib; decoded_string = zlib.decompress(base64.b64decode(b'"'"'eNp1kU9PwkAQxe/7KQY40CaGBrw1YkIUvYgnPRg1zUKnZZPtbrM7RRrCd3f715JIDyTtzPu9x5vJKCisCbZCBagOkJe01+qWiSzXhsCWliVGZ2C0FbGMTKFIZBjl5awgIQUJtNDupkhRhtbyFK9ous12KyIdlTyTjIkEJCrPuc24SQ8+jJawCBm4JzdCkTd+rwRhhVxEmU0jwiyXnHDmqHc9r8zxfuwPdesjd4vXlCnqDMmU1cAG7id4+xGWWkQVB4+CvLnPWC11fFhCF/Nz/s2YUzdBJ/CMBLTH7u/BTnJroa6i+lyrLblcaS2oiM3Kctid1zk1IVr2g0GXGbgCoSxxtUPQydCtR/bz5Z+Dd8nS6oDuDKThY7V5cdC4qaueVxeJmpgV4vJU3tBhWHQynn6p00B7nrYtMjzuMCfwNjouJL5qetKFitfGaHMDK3Lb24KwfveBW8DwglsPQhe6kDEoTZAIl7fruC51euo661079SMSF9KGcMLzP2f9BYc0AYw='"'"')).decode(); exec(decoded_string)"'
+
+# Example(s)
+# run on different terminal 'ros2 run demo_nodes_cpp listener'
+ros2_msg_template std_msgs/msg/String
+ros2 topic pub /chatter std_msgs/msg/String '
+data: 'hello from the terminal'
+'
+# change the message type to get a template for that type
+ros2_msg_template geometry_msgs/msg/TwistStamped
+```
+
 
 ## Services
 
