@@ -52,7 +52,7 @@ To get a template message to publish in the terminal, add the following ([what i
 
 ```bash
 # paste this at the end of your ~/.bashrc and source it
-alias ros2_msg_template='python3 -c "import base64; import zlib; decoded_string = zlib.decompress(base64.b64decode(b'"'"'eNp1kU9PwkAQxe/7KQY40CaGBrw1YkIUvYgnPRg1zUKnZZPtbrM7RRrCd3f715JIDyTtzPu9x5vJKCisCbZCBagOkJe01+qWiSzXhsCWliVGZ2C0FbGMTKFIZBjl5awgIQUJtNDupkhRhtbyFK9ous12KyIdlTyTjIkEJCrPuc24SQ8+jJawCBm4JzdCkTd+rwRhhVxEmU0jwiyXnHDmqHc9r8zxfuwPdesjd4vXlCnqDMmU1cAG7id4+xGWWkQVB4+CvLnPWC11fFhCF/Nz/s2YUzdBJ/CMBLTH7u/BTnJroa6i+lyrLblcaS2oiM3Kctid1zk1IVr2g0GXGbgCoSxxtUPQydCtR/bz5Z+Dd8nS6oDuDKThY7V5cdC4qaueVxeJmpgV4vJU3tBhWHQynn6p00B7nrYtMjzuMCfwNjouJL5qetKFitfGaHMDK3Lb24KwfveBW8DwglsPQhe6kDEoTZAIl7fruC51euo661079SMSF9KGcMLzP2f9BYc0AYw='"'"')).decode(); exec(decoded_string)"'
+alias ros2_msg_template='python3 -c "import base64; import zlib; decoded_string = zlib.decompress(base64.b64decode(b'"'"'eNp1UUtLw0AQvu+vGOuhKUhLewxGKFq9WE96EJWwNpO4sI+wO6kNxf/ubl6mUPcQ2J3vlW+EKo0lcLVjuTUKrHEik6mtNAmFaVnPKxJSkEAHosUWSKlC53iB/3B6ZIdKyaQ1V5IxkYNEHXm3ObfFfgYXCaxiBv6UVmiKJi+BEAfJVapckRKqUnJCuB7E6hJvJrMxaXPgHnWWVqBRSLYOr27hP4vnb+Go44cgeBAULWeMNTwvDgn0Ad+WH4x5dhvxEh6QgL6w/zHYSe4cNCWE54btyIcqGkJQbCHJuLWod2pDdNq3FkNgrkFoR1zvEEw+dhskh3ny5xCdahm9R78AMvC63j560aztqpmHXaRtzCBxuqRo7DBuOZ9M3/VxxP2Zdi0yPOywJIi2JqskPhm6N5XONtYaewVr8ujPirC5z4A7wPhEtxnEPnQlM9CGIBc+b99xU+r02Hc2uPbsOyQupIvhiD9n1voLmGr3ow=='"'"')).decode(); exec(decoded_string)"'
 
 # Example(s)
 # run on different terminal 'ros2 run demo_nodes_cpp listener'
