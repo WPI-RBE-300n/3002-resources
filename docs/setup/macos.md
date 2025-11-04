@@ -20,7 +20,7 @@ To `ssh` into the lab computers, the username is your wpi username, and address 
 2. You can also use `ssh` to connect to the lab computer from your laptop and run commands on it.
 3. If you set up your `~/.bashrc`, you can even run the GUI applications.
 In this case, you would run the tool/application on the lab computer over ssh, and the window would appear on the lab computer.
-If you want to run the GUI applications on your laptop, you would need to set up X forwarding.
+If you want the GUI applications to display on your laptop, you would need to set up X forwarding.
 
 In the `~/.bashrc` of the lab computer, you can add the following:
 ```shell
