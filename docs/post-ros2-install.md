@@ -8,5 +8,5 @@ source ~/.bashrc
 
 To get `colcon`:
 ```shell
-sudo apt install python3-colcon-common-extensions
+sudo apt install -y python3-colcon-common-extensions
 ```
