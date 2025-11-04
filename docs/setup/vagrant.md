@@ -38,3 +38,8 @@ Default username is `vagrant` and password is `vagrant`.
 Now, follow the [ROS2 installation instructions for Ubuntu 24.04](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html).
 
 Commands that open up windows (like `rqt`) might not work through SSH but will work if you run them from the terminal on the ubuntu desktop on virtualbox.
+
+When you are done, turn off the VM with:
+```shell
+vagrant halt
+```
