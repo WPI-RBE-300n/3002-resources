@@ -5,7 +5,7 @@ But you can still use it as a development container with all the ros2 tools.
 Docker image is adapted from [this](https://github.com/GodOfKebab/ros2-tmotor).
 
 The `ros2-desktop` docker image includes ros2 tools and some other useful tools like `nano` and an ssh server.
-The default workspace in the container is `/root/ros2_ws`, which is mapped to `.../3002-resources/docker/rso2_ws` on your host machine.
+The default workspace in the container is `/root/ros2_ws`, which is mapped to `.../3002-resources/docker/ros2_ws` on your host machine.
 
 Download the repo:
 ```shell
