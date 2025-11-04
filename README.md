@@ -9,7 +9,8 @@ Here, you can find
   - for Mac (TODO)
   - for [Docker](docs/setup/docker.md)
   - for [Virtual Machine over Vagrant](docs/setup/vagrant.md)
-- Handy ROS2 commands for debugging (TODO)
+- [Handy commands to run after ROS2 installation](docs/post-ros2-install.md)
+- [Handy ROS2 commands for debugging](docs/handy-ros2-commands.md)
 
 If what you are looking for is not here, see official ROS2/Turtlebot3 resources below.
 
