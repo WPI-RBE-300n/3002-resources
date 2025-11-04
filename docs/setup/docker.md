@@ -1,4 +1,4 @@
-# RBE3002 Docker Setup
+# Docker Setup
 
 ⚠️ NOTE: ROS tools/setups that would require networking and GUI are not supported.
 But you can still use it as a development container with all the ros2 tools.
