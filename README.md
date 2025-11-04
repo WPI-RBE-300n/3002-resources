@@ -6,7 +6,7 @@ Here, you can find
 - ROS2/Turtlebot3 setup guides
   - for Windows (TODO)
   - for Ubuntu Noble Numbat (24.04) (TODO)
-  - for Mac (TODO)
+  - for [macOS](docs/setup/macos.md)
   - for [Docker](docs/setup/docker.md)
   - for [Virtual Machine over Vagrant](docs/setup/vagrant.md)
 - [Handy commands to run after ROS2 installation](docs/post-ros2-install.md)
