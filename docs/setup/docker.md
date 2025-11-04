@@ -9,7 +9,7 @@ The default workspace in the container is `/root/ros2_ws`, which is mapped to `.
 
 Download the repo:
 ```shell
-git https://github.com/WPI-RBE-300n/3002-resources.git
+git clone https://github.com/WPI-RBE-300n/3002-resources.git
 cd 3002-resources
 ```
 
