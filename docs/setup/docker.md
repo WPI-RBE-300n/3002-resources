@@ -27,3 +27,7 @@ ssh root@localhost -p 2222
 # password: goat
 ```
 
+After logging in, see:
+- [Handy commands to run after ROS2 installation](../post-ros2-install.md)
+- [Handy ROS2 commands for debugging](../handy-ros2-commands.md)
+
