@@ -4,11 +4,12 @@ Latest LTS ROS2 version: [Jazzy Jalisco](https://docs.ros.org/en/jazzy/Releases.
 
 Here, you can find
 - ROS2/Turtlebot3 setup guides
-  - for Windows (TODO)
-  - for Ubuntu Noble Numbat (24.04) (TODO)
+  - for [Windows](docs/setup/windows.md)
+  - for [Ubuntu](docs/setup/ubuntu.md)
   - for [macOS](docs/setup/macos.md)
   - for [Docker](docs/setup/docker.md)
   - for [Virtual Machine over Vagrant](docs/setup/vagrant.md)
+  - for [remotely connecting to the lab computers](docs/setup/remote.md)
 - [Handy commands to run after ROS2 installation](docs/post-ros2-install.md)
 - [Handy ROS2 commands for debugging](docs/handy-ros2-commands.md)
 
