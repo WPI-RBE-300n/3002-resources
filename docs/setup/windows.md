@@ -1,6 +1,6 @@
 # Windows Setup
 
-TODO
+WSL? (TODO)
 
 [remote setup](./remote.md) could be an alternative.
 
