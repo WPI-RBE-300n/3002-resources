@@ -46,8 +46,8 @@ Now, follow the [ROS2 installation instructions for Ubuntu 24.04](https://docs.r
 Commands that open up windows (like `rqt`) might not work through SSH but will work if you run them from the terminal on the ubuntu desktop on virtualbox.
 
 After installing `ros2`, see:
-- [Handy commands to run after ROS2 installation](../post-ros2-install.md)
-- [Handy ROS2 commands for debugging](../handy-ros2-commands.md)
+- [Handy commands to run after ROS2 installation](../../post-ros2-install.md)
+- [Handy ROS2 commands for debugging](../../handy-ros2-commands.md)
 
 When you are done, turn off the VM with:
 ```shell

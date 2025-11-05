@@ -3,13 +3,15 @@
 Latest LTS ROS2 version: [Jazzy Jalisco](https://docs.ros.org/en/jazzy/Releases.html) (release date May 23, 2024)
 
 Here, you can find
-- ROS2/Turtlebot3 setup guides
-  - for [Windows](docs/setup/windows.md)
-  - for [Ubuntu](docs/setup/ubuntu.md)
-  - for [macOS](docs/setup/macos.md)
-  - for [Docker](docs/setup/docker.md)
-  - for [Virtual Machine over Vagrant](docs/setup/vagrant.md)
-  - for [remotely connecting to the lab computers](docs/setup/remote.md)
+- `ros2` setup guides
+  - for [Windows](docs/setup/ros2/windows.md)
+  - for [Ubuntu](docs/setup/ros2/ubuntu.md)
+  - for [macOS](docs/setup/ros2/macos.md)
+  - for [Docker](docs/setup/ros2/docker.md)
+  - for [Virtual Machine over Vagrant](docs/setup/ros2/vagrant.md)
+  - for [remotely connecting to the lab computers](docs/setup/ros2/remote.md)
+- `turtlebot3` setup guides
+  - for [setting up cyclone DDS](docs/setup/turtlebot3/cyclone.md)
 - [Handy commands to run after ROS2 installation](docs/post-ros2-install.md)
 - [Handy ROS2 commands for debugging](docs/handy-ros2-commands.md)
 
