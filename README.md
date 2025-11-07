@@ -8,6 +8,7 @@ Here, you can find
   - for 🐧 [Ubuntu](docs/setup/ros2/ubuntu.md)
   - for 🍎 [macOS](docs/setup/ros2/macos.md)
   - for 🐳 [Docker](docs/setup/ros2/docker.md)
+  - for 💻 [VirtualBox](docs/setup/ros2/virtualbox.md)
   - for 📦 [Virtual Machine over Vagrant](docs/setup/ros2/vagrant.md)
   - for 🌐 [remotely connecting to the lab computers](docs/setup/ros2/remote.md)
 - 🐢 `turtlebot3` setup guides
