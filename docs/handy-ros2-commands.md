@@ -1,6 +1,6 @@
-# ROS2 Commands Cheat Sheet
+# 🛠️ ROS2 Commands Cheat Sheet
 
-## Run
+## ▶️ Run
 
 ```bash
 ros2 run <package> <executable>  # Run a node
@@ -10,7 +10,7 @@ ros2 run demo_nodes_cpp talker
 ros2 run demo_nodes_cpp add_two_ints_server
 ```
 
-## Launch
+## 🚀 Launch
 
 ```bash
 ros2 launch <package> <launch_file>  # Launch a launch file
@@ -19,7 +19,7 @@ ros2 launch <package> <launch_file>  # Launch a launch file
 ros2 launch demo_nodes_cpp talker_listener_launch.py
 ```
 
-## Nodes
+## 🔵 Nodes
 
 ```bash
 ros2 node list              # List active nodes
@@ -29,7 +29,7 @@ ros2 node info <node_name>  # Node details
 ros2 node info /talker
 ```
 
-## Topics
+## 📡 Topics
 
 ```bash
 ros2 topic list                       # List all topics
@@ -65,7 +65,7 @@ ros2_msg_template geometry_msgs/msg/TwistStamped
 ```
 
 
-## Services
+## 🔌 Services
 
 ```bash
 ros2 service list                          # List services
@@ -80,7 +80,7 @@ ros2 service info /add_two_ints
 ros2 service call /add_two_ints example_interfaces/srv/AddTwoInts "{a: 5, b: 3}"
 ```
 
-## Parameters
+## ⚙️ Parameters
 
 ```bash
 ros2 param list                        # List parameters
@@ -93,7 +93,7 @@ ros2 param dump <node>                 # Save parameters to file
 ros2 param dump /add_two_ints_server
 ```
 
-## Interface (Message Types)
+## ✉️ Interface (Message Types)
 
 ```bash
 ros2 interface list         # List all interfaces
@@ -111,7 +111,7 @@ ros2 service info /add_two_ints  # use the service info to get the type
 ros2 interface show example_interfaces/srv/AddTwoInts
 ```
 
-## Build (Colcon)
+## 🏗️ Build (Colcon)
 
 ```bash
 colcon build                          # Build workspace
@@ -119,9 +119,9 @@ colcon build --packages-select <pkg>  # Build specific package
 source ~/ros2_ws/install/setup.bash   # Source workspace (different from the system-wide setup.bash)
 ```
 
-## Get Package Prefix Path
+## 📦 Get Package Prefix Path
 
-For those coming from ROS1, this is not equivalent but can be used to replace `roscd`.
+For those coming from ROS1, this is not equivalent but can be used to replace `roscd`. 💡
 
 ```bash
 ros2 pkg prefix demo_nodes_cpp  # Get package prefix path
