@@ -40,3 +40,16 @@
 After installing `ros2`, see:
 - 🔧 [Handy commands to run after ROS2 installation](../../post-ros2-install.md)
 - 🛠️ [Handy ROS2 commands for debugging](../../handy-ros2-commands.md)
+
+## 🌐 Networking with TurtleBots
+
+This VirtualBox setup should work fine for individual labs and signoffs.
+
+If you need to communicate with physical TurtleBots in the lab, you may need to configure **Bridged Networking**:
+
+1. With the VM powered off, go to **Settings → Network**
+2. Change **Attached to:** from "NAT" to "Bridged Adapter"
+3. Select your host's network adapter from the dropdown
+4. You may need to register the MAC address of your VM at [netreg.wpi.edu](https://netreg.wpi.edu/auth/login)
+
+This allows your VM to get an IP address on the same network (the WPI network) as the TurtleBots.

@@ -1,8 +1,9 @@
 # 🐳 Docker Setup
 
-⚠️ NOTE: ROS tools/setups that would require networking and GUI need additional setup.
-But you can still use it as a development container with all the ros2 tools.
-If you really want to use it with real robots and GUI tools, you might want to look into X forwarding and docker networking.
+⚠️ **NOTE**: This setup should work fine for individual labs and signoffs. However, ROS tools that require networking (communicating with physical TurtleBots) and GUI need additional setup.
+
+You can use this as a development container with all the ros2 tools. If you need to communicate with real robots or use GUI tools, you'll need to configure X forwarding and docker networking.
+
 Dockerfile is adapted from [this](https://github.com/GodOfKebab/ros2-tmotor).
 
 📖 See [docker](https://docs.docker.com/get-started/docker-overview/).

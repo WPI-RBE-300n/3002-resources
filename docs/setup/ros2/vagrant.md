@@ -1,8 +1,10 @@
 # 📦 Vagrant Setup
 
-📖 See [vagrant](https://developer.hashicorp.com/vagrant/intro). 
+📖 See [vagrant](https://developer.hashicorp.com/vagrant/intro).
 You can use this to set up a VM for development/testing.
-If you set up your networking properly (in `vagrant/Vagrantfile`), you can use this to connect to the robot.
+
+💡 **Note**: This setup should work fine for individual labs and signoffs.
+If you need to communicate with physical TurtleBots in the lab, you can configure networking in `vagrant/Vagrantfile` (e.g., bridged networking).
 
 📥 Install [Vagrant](https://developer.hashicorp.com/vagrant/install) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 

@@ -3,8 +3,21 @@
 📦 There are no pre-built binaries for macOS.
 So you would need to [build it from source](https://docs.ros.org/en/jazzy/Installation/Alternatives/macOS-Development-Setup.html). 🔨
 
-💡 If you don't feel comfortable disabling `System Integrity Protection` (SIP), [remote setup](remote.md) could be an alternative.
+⚠️ Building from source requires disabling `System Integrity Protection` (SIP), which some users may not want to do.
 
-✅ After installing `ros2`, see:
+## 🔄 Alternative Setup Methods
+
+If building from source doesn't work for you, try these platform-independent alternatives:
+
+- 🐳 [Docker](docker.md) - Run ROS2 in a containerized environment
+- 💻 [VirtualBox](virtualbox.md) - Set up Ubuntu 24.04 in a VM (easiest option!)
+- 📦 [Vagrant](vagrant.md) - Automated VM setup with configuration options
+- 🌐 [Remote Setup](remote.md) - Connect to lab computers remotely
+
+💡 **Note**: These alternative methods should work fine for individual labs and signoffs. However, if you need to communicate with physical TurtleBots in the lab, you may need additional networking configuration.
+
+## ✅ Post-Installation
+
+After installing `ros2`, see:
 - 🔧 [Handy commands to run after ROS2 installation](../../post-ros2-install.md)
 - 🛠️ [Handy ROS2 commands for debugging](../../handy-ros2-commands.md)
