@@ -12,7 +12,8 @@ Here, you can find
   - for 📦 [Virtual Machine over Vagrant](docs/setup/ros2/vagrant.md)
   - for 🌐 [remotely connecting to the lab computers](docs/setup/ros2/remote.md)
 - 🐢 `turtlebot3` setup guides
-  - for [setting up cyclone DDS](docs/setup/turtlebot3/cyclone.md)
+  - for [host computer and simulation](docs/setup/turtlebot3/simulation.md)
+  - for [cyclone DDS](docs/setup/turtlebot3/cyclone.md)
 - 🔧 [Handy commands to run after ROS2 installation](docs/post-ros2-install.md)
 - 🛠️ [Handy ROS2 commands for debugging](docs/handy-ros2-commands.md)
 
@@ -52,9 +53,9 @@ Following are some of the official ROS2 resources provided here for your conveni
 
 ### 🐢 [Turtlebot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/)
 
-⚠️ NOTE 1: Make sure the `Jazzy` version is selected in the top left corner.
+⚠️ **NOTE 1**: Make sure the `Jazzy` version is selected in the top left corner.
 
-⚠️ NOTE 2: In this course, only the 'bringup' command is going to be executed on the Turtlebot3.
+⚠️ **NOTE 2**: In this course, only the 'bringup' command is going to be executed on the Turtlebot3.
 All other commands are going to be executed on your laptop/lab computer.
 
 - 💻 [PC Setup](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup)

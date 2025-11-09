@@ -51,15 +51,11 @@ Then, edit the `config.xml` file to include your robot's domain address (replace
 
 ### 3. Configure ROS2 to use Cyclone DDS
 
-⚠️ **Note**: Make sure ```ROS_DOMAIN_ID``` you set on your host computer is the same as the ```ROS_DOMAIN_ID``` on your turtlebot.
-
 ```bash
 # To be added to the end of the ~/.bashrc file on your computer (turtlebot is already set up with Cyclone DDS)
-export ROS_DOMAIN_ID=30  
 export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 export CYCLONEDDS_URI=~/config.xml
 # or simply run these commands to add them to your ~/.bashrc file
-# echo "export ROS_DOMAIN_ID=30" >> ~/.bashrc
 # echo "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" >> ~/.bashrc
 # echo "export CYCLONEDDS_URI=~/config.xml" >> ~/.bashrc
 # source ~/.bashrc
